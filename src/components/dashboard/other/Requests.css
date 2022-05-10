@@ -1,0 +1,98 @@
+.requests--container {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 0.6em;
+}
+
+.requests--header {
+    padding: 1em;
+    border-bottom: 1px solid #E6EBED;
+}
+
+.requests--title {
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.requests--viewall {
+    color: #194AF5;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    float: right;
+}
+
+.requests--body{
+    padding: 0 1em;
+}
+
+.request--card {
+    display: table;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.request--card--profile {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1em;
+    color: #5A6472;
+    background: #E6EBFF;
+    opacity: 0.44;
+    border: 1px solid #F8F8F8;
+    height: 2.5em;
+    width: 2.5em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+
+
+.request--card--detials {
+    padding-left: 0.8em;
+    display: table-cell;
+    font-weight: 400;
+    color: #A9ABAD;
+}
+
+.request--card--name {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1em;
+    color: #232526;
+}
+
+.requests--card--buttons {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.requests--card-button--group{
+    float: right;
+}
+
+.requests--card--button {
+    box-shadow: 0px 0px 50px #E5ECFC;
+    border-radius: 4px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    padding: 0.5em;
+    border-radius: 0.6em;
+}
+
+.accept {
+    background: #194AF5;
+    color: #F8F8F8;
+}
+
+.decline {
+    background: #E6EBFF;
+    color: #194AF5;
+    margin-right: 1em;
+}
